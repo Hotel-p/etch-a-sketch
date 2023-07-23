@@ -1,11 +1,9 @@
 body{
     height: 100vh;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    /* justify-content: center; */
-    padding-top: 32px;
-    /* background-color: blue; */
+    background-color: lightgray;
 }
 
 .header{
@@ -16,18 +14,54 @@ body{
 }
 
 .header p{
-    margin: 16px;
+    margin: 8px;
 }
 
 .container{
     display: grid;
-    border: 5px solid black;
     height: 600px;
     width: 600px;
+    border-radius: 50%;
 }
 
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 32px;
+}
 
+.right{
+    margin-left: 32px;
+}
 
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.buttons button{
+    height: 54px;
+    width: 108px;
+    border-radius: 18%;
+    background-color: slategray;
+    color: white;
+    font-size: 24px;
+}
+
+input[type="range"]{
+    border: none;
+    outline: none;
+    appearance: none;
+    border-radius: 15px;
+    background: white;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: black;
+}
 
 
 

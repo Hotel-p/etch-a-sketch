@@ -7,15 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header">
-        <p>Etch a Sketch!</p>
-        <p>Glide over the grid cells to draw!</p>
-    </div>
-    
-    <div class="container">
+
+    <div class="left">
+        <div class="header">
+            <p>Etch a Sketch!</p>
+            <p>Glide over the grid cells to draw!</p>
+        </div>
         
+        
+        <div class="buttons">
+            <div class="slidecontainer">
+                <input type="range" min="1" max="50" value="16" class="slider" id="myRange">
+            </div>
+            <div class="reset">
+                <button>Reset</button>
+            </div>
+            <div class="div-color">
+                <button>Color</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="right">
+        <div class="container">
+        
+        </div>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
