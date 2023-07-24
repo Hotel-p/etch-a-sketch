@@ -8,35 +8,40 @@
 </head>
 <body>
 
-    <div class="left">
-        <div class="header">
-            <p>Etch a Sketch!</p>
-            <p>Glide over the grid cells to draw!</p>
-        </div>
-        
-        
-        <div class="buttons">
-            <div class="slidecontainer">
-                <input type="range" min="1" max="50" value="16" class="slider" id="myRange">
-            </div>
-            <div class="reset">
-                <button class="resetButton">Reset</button>
-            </div>
-            <div class="div-color">
-                <button class="colorButton">Color</button>
-            </div>
-            <div class="cell-color">
-                <input class="cellColor" type="color"/>
+    <div class="header">
+        <p>Etch a Sketch!</p>
+        <p>Glide over the grid cells to draw!</p>
+    </div>  
+
+    <div class="content">
+        <div class="left">
+            <div class="buttons">
+                <div class="slidecontainer">
+                    <input type="range" min="1" max="50" value="16" class="slider" id="myRange">
+                </div>
+                <div class="div-color">
+                    <button class="colorButton">Color</button>
+                    <div class="cell-color">
+                        <input class="cellColor" type="color"/>
+                    </div>
+                </div>
+                <div class="erase">
+                    <button class="eraseButton">Erase</button>
+                </div>
+                <div class="reset">
+                    <button class="resetButton">Reset</button>
+                </div>
+
             </div>
         </div>
 
-    </div>
-
-    <div class="right">
-        <div class="container">
+        <div class="right">
+            <div class="container">
         
+            </div>
         </div>
     </div>
+    <
 
     <script src="script.js"></script>
 </body>
